@@ -1,5 +1,5 @@
 pipelineJob('Job-NginxAppCreation') {
-     description('This is the job for creating a single node kubernetes cluster.')
+     description('This is the job for creating a Pipeline Job for Simple Nginx based application Deployment.')
     definition {
         cpsScm {
             scm {
